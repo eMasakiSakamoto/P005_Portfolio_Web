@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ポートフォリオ | Androidエンジニア</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ナビゲーション -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Android Developer</h1>
+        <p>高品質なモバイルアプリケーション開発</p>
+        <a href="#projects" class="btn btn-primary">プロジェクトを見る</a>
+      </div>
+    </section>
+
+    <!-- アバウトセクション -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              こんにちは。Androidアプリ開発エンジニアです。
+              ユーザーファーストな設計と、保守性の高いコード品質を心がけています。
+            </p>
+            <p>
+              Kotlin/Java、Material Design、Jetpack、Firebase などの
+              最新技術を活用した開発経験があります。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- プロジェクトセクション -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <!-- プロジェクト1 -->
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+              "
+            ></div>
+            <div class="project-info">
+              <h3>Todo Manager</h3>
+              <p class="project-desc">
+                Jetpack ComposeとRoom DBを使用したタスク管理アプリ
+              </p>
+              <div class="project-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Compose</span>
+                <span class="tag">Room</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="link-btn">GitHub</a>
+                <a href="#" class="link-btn">Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- プロジェクト2 -->
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="
+                background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+              "
+            ></div>
+            <div class="project-info">
+              <h3>Weather App</h3>
+              <p class="project-desc">
+                OpenWeather APIとRetrofitを使用した天気情報アプリ
+              </p>
+              <div class="project-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Retrofit</span>
+                <span class="tag">API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="link-btn">GitHub</a>
+                <a href="#" class="link-btn">Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- プロジェクト3 -->
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="
+                background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+              "
+            ></div>
+            <div class="project-info">
+              <h3>Chat Application</h3>
+              <p class="project-desc">
+                Firebase Realtime Databaseを使用したリアルタイムチャットアプリ
+              </p>
+              <div class="project-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Realtime</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="link-btn">GitHub</a>
+                <a href="#" class="link-btn">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- スキルセクション -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul>
+              <li>Kotlin</li>
+              <li>Java</li>
+              <li>XML</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks & Libraries</h3>
+            <ul>
+              <li>Jetpack Compose</li>
+              <li>AndroidX</li>
+              <li>Retrofit</li>
+              <li>Room Database</li>
+              <li>Hilt</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Backend & Services</h3>
+            <ul>
+              <li>Firebase</li>
+              <li>RESTful APIs</li>
+              <li>Cloud Firestore</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools & Others</h3>
+            <ul>
+              <li>Android Studio</li>
+              <li>Git</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- コンタクトセクション -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          プロジェクトのご相談やお問い合わせはこちらから
+        </p>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com" class="contact-link">
+            <i class="fas fa-envelope"></i>
+            <span>Email</span>
+          </a>
+          <a
+            href="https://github.com/your-username"
+            target="_blank"
+            class="contact-link"
+          >
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a
+            href="https://twitter.com/your-username"
+            target="_blank"
+            class="contact-link"
+          >
+            <i class="fab fa-twitter"></i>
+            <span>Twitter</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/your-username"
+            target="_blank"
+            class="contact-link"
+          >
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <p>&copy; 2024 Android Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
